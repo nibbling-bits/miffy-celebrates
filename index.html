@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142c3a"><title>Miffy's Birthday Adventure</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="lockScreen" class="lock-screen">
+  <div class="lock-card">
+    <div class="lock-sparkle">🌙 ✨</div>
+    <div class="tiny">A VERY SMALL, VERY EXCLUSIVE WORLD</div>
+    <h1>Not so fast, Miffy…</h1>
+    <p>This little birthday adventure is protected by a secret word.</p>
+    <div class="lock-row">
+      <input id="secretInput" type="password" autocomplete="off" placeholder="Secret word…" aria-label="Secret word">
+      <button id="unlockBtn" class="primary">Unlock ✨</button>
+    </div>
+    <p id="lockError" class="lock-error" aria-live="polite"></p>
+    <small>Hint: ask Bushra if your birthday brain has stopped working. 😌</small>
+  </div>
+</div>
+<main class="world locked-world" id="birthdayWorld"><div class="stars"></div><div class="moon">☾</div><div id="flies"></div><section class="panel" id="screen"><div class="tiny">OCTOBER 3 · A TINY BIRTHDAY ADVENTURE</div><div class="icon">🌱</div><h1>Miffy</h1><h2>A little adventure is waiting for you…</h2><p>Seven questions. Many memories. One special message.</p><button class="primary" id="start">Let's Begin →</button><small>Warning: Bushra has personally verified the answer key. 😌</small></section></main><div id="modal" class="backdrop hidden"><div class="modal"><div id="mIcon" class="icon">😂</div><h2 id="mTitle"></h2><p id="mText"></p><button id="mBtn" class="primary">Fine, let me try again 🙄</button></div></div><script src="script.js"></script></body></html>
